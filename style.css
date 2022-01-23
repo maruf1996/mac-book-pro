@@ -1,0 +1,58 @@
+.mac_book {
+    width: 70%;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.heading_text {
+    margin-top: 20px;
+}
+
+.mac_details {
+    width: 400px;
+}
+
+.mac_discripe {
+    font-size: 12px;
+}
+
+.table_box {
+    width: 300px;
+}
+
+.hr_design {
+    border-top: 2px solid black;
+}
+
+.hr_bottom {
+    border-top: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body,
+    main {
+        overflow-x: hidden;
+    }
+
+    .mac_book {
+        width: 80%;
+        margin-left: 25px;
+    }
+
+    .heading_text {
+        width: 100%
+    }
+
+    .mac_details {
+        width: 300px;
+    }
+
+    .heading_text {
+        font-size: 16px;
+    }
+
+}
